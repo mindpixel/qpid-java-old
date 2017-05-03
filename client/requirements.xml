@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE requirements [
+    <!ELEMENT requirements (requirement*)>
+    <!ELEMENT requirement (issue*)>
+    <!ELEMENT issue EMPTY>
+    <!ATTLIST requirement name CDATA #REQUIRED>
+    <!ATTLIST issue id CDATA #REQUIRED>
+]>
+<requirements>
+    <requirement name="Requirement1">
+        <issue id="QPID-6691"/>
+        <issue id="QPID-6690"/>
+        <issue id="QPID-5721"/>
+        <issue id="QPID-6594"/>
+        <issue id="QPID-1106"/>
+        <issue id="QPID-1115"/>
+        <issue id="QPID-3318"/>
+        <issue id="QPID-334"/>
+        <issue id="QPID-3604"/>
+        <issue id="QPID-3830"/>
+    </requirement>
+    <requirement name="Requirement2">
+        <issue id="QPID-5813"/>
+        <issue id="QPID-3994"/>
+        <issue id="QPID-5818"/>
+        <issue id="QPID-6207"/>
+        <issue id="QPID-5592"/>
+        <issue id="QPID-582"/>
+        <issue id="QPID-6347"/>
+        <issue id="QPID-6636"/>
+        <issue id="QPID-7000"/>
+    </requirement>
+    <requirement name="Requirement3">
+        <issue id="QPID-6613"/>
+        <issue id="QPID-7278"/>
+        <issue id="QPID-1"/>
+    </requirement>
+</requirements>

@@ -1,0 +1,3 @@
+<!ELEMENT requirements (requirement*)>
+<!ELEMENT requirement (issue*)><!ATTLIST requirement name CDATA #REQUIRED>
+<!ELEMENT issue EMPTY><!ATTLIST issue id CDATA #REQUIRED>

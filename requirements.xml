@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<requirements>
+    <requirement name="Example-Requirement1">
+        <issue id="QPID-1028"/>
+        <issue id="QPID-1062"/>
+        <issue id="QPID-1079"/>
+    </requirement>
+    <requirement name="Example-Requirement2">
+        <issue id="QPID-4454"/>
+        <issue id="QPID-4432"/>
+        <issue id="QPID-4496"/>
+    </requirement>
+    <requirement name="Example-Requirement3">
+        <issue id="QPID-77"/>
+        <issue id="QPID-9"/>
+        <issue id="QPID-1"/>
+    </requirement>
+</requirements>
